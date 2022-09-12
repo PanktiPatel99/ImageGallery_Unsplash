@@ -44,7 +44,7 @@ const Images = () => {
         {result.map((image, i) => (
           <>
             <div key={i} className="card">
-              <img src={image.urls.thumb} alt="" />
+              <img src={image.urls.small} alt="" />
             </div>
           </>
         ))}
