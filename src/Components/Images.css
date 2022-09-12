@@ -1,0 +1,57 @@
+.Images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.input {
+  padding: 10px 20px;
+}
+
+.input > input {
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 350px;
+  padding: 10px 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0px 10px 15px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(4, 100, 243);
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(58, 71, 90);
+}
+
+button:active {
+  background-color: cornflowerblue;
+}
+
+.result {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto auto;
+  width: auto;
+  height: auto;
+}
+
+.card {
+  padding: 5px;
+  width: auto;
+  height: auto;
+}
+
+img {
+  flex-wrap: nowrap;
+  margin: 5px;
+  width: 325px;
+  height: 195px;
+}
