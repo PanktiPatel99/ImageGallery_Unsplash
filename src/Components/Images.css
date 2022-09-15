@@ -6,6 +6,11 @@
   padding-top: 40px;
 }
 
+.search-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .input {
   padding: 10px 20px;
 }
@@ -14,12 +19,12 @@
   border: 1px solid black;
   border-radius: 6px;
   width: 350px;
-  padding: 10px 20px;
+  padding: 10px 20px 6px;
 }
 
 button {
   padding: 10px 20px;
-  margin: 0px 10px 15px;
+  margin-left: 10px;
   color: white;
   border-radius: 6px;
   border: none;
@@ -33,6 +38,25 @@ button:hover {
 
 button:active {
   background-color: cornflowerblue;
+}
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  margin: 0px 20px;
+  padding: 10px 20px;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
 }
 
 .result {
