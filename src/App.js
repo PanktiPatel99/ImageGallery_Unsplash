@@ -1,15 +1,13 @@
 import React from "react";
 import "./App.css";
 
-// import Images from "./Components/Images";
-import ImageResult from "./Components/ImageResult";
+import Images from "./Components/Images";
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">Image Gallery</header>
-      {/* <Images /> */}
-      <ImageResult />
+      <Images />
     </div>
   );
 };
